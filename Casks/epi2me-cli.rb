@@ -8,9 +8,7 @@ cask "epi2me-cli" do
   homepage "https://metrichor.com/"
 
   postflight do
-    Dir.chdir("#{appdir}") do
-      system "echo", "#{appdir}", "#{HOMEBREW_PREFIX}/epi2me-cli-macos-#{version}"
-      File.symlink("epi2me-cli", "#{HOMEBREW_PREFIX}/epi2me-cli-macos-#{version}")
-    end
+    system "echo", "#{appdir}", "#{HOMEBREW_PREFIX}/bin/epi2me-cli-macos-#{version}"
+    File.symlink("epi2me-cli", "#{HOMEBREW_PREFIX}/bin/epi2me-cli-macos-#{version}")
   end
 end
