@@ -1,4 +1,4 @@
-cask :v1 => 'epi2me-cli' do
+cask :v1 => 'epi2me-cli-macos-2.61.2367682' do
   version '2.61.2367682'
   sha256 '962ecbd567ffedc75534ace6dd19b22e8b75c32348c3156b7f9e801431a72f0e'
 
