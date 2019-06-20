@@ -9,7 +9,7 @@ cask "epi2me-cli" do
 
   postflight do
     Dir.chdir("#{appdir}") do
-      File.symlink('#{HOMEBREW_PREFIX}/epi2me-cli-macos-#{version}', 'epi2me-cli')
+      File.symlink('epi2me-cli', '#{HOMEBREW_PREFIX}/epi2me-cli-macos-#{version}')
     end
   end
 end
