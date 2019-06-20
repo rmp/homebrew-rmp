@@ -2,7 +2,7 @@
 
 *This is my experimental Cask playground.*
 
-See [http://brew.sh/]() and [http://caskroom.io/]() for further information on Homebrew and Cask.
+See [http://brew.sh/]() for further information on Homebrew and Cask.
 
 ### Tap
 ```code
